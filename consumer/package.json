@@ -1,0 +1,16 @@
+{
+  "name": "consumer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pact": "node pact/generate-contracts.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@pact-foundation/pact": "^9.14.0",
+    "axios": "^0.21.1"
+  }
+}

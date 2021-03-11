@@ -1,0 +1,27 @@
+I, [2021-03-11T18:02:44.147435 #94215]  INFO -- : Registered expected interaction GET /things
+D, [2021-03-11T18:02:44.147671 #94215] DEBUG -- : {
+  "description": "a request",
+  "providerState": "the API is in a certain state",
+  "request": {
+    "method": "GET",
+    "path": "/things"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+    },
+    "body": {
+      "a": "thing"
+    }
+  },
+  "metadata": null
+}
+W, [2021-03-11T18:02:44.149087 #94215]  WARN -- : Verifying - actual interactions do not match expected interactions. 
+Missing requests:
+	GET /things
+
+
+W, [2021-03-11T18:02:44.149214 #94215]  WARN -- : Missing requests:
+	GET /things
+
+
